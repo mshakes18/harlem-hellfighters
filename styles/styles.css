@@ -8,9 +8,14 @@ h2 {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-nav a {
+nav ul li {
   text-decoration: none;
+  display: inline-block;
 }
 a:hover {
   color: bisque;
+}
+
+a {
+  text-decoration: none;
 }
