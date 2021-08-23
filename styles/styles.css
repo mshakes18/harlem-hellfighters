@@ -28,7 +28,7 @@ ul {
   float: right;
   margin-top: 50px;
   margin-right: 100px;
-  margin-bottom: 500px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -42,4 +42,21 @@ h2 {
   content: "";
   clear: both;
   display: table;
+}
+
+.hero {
+  padding-top: 500px;
+  margin-left: 500px;
+  margin-top: -450px;
+}
+
+.hero button {
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 15px;
+}
+.hero p {
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
 }
