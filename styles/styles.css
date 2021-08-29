@@ -9,7 +9,7 @@ body {
 nav a,
 h2 {
   color: #fff;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 nav ul li {
@@ -43,40 +43,52 @@ h2 {
 
 /* inserts element after the container (in this case the nav) */
 .clearfix::after {
-  content: '';
+  content: "";
   clear: both;
   display: table;
 }
 
 .hero {
-  /* padding-top: 350px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px; */
-
-  padding: 350px 50px 20px 50px;
-  /* margin-left: 500px; */
-  background-image: url('../assets/the-harlem-hellfighters.jpg');
+  padding: 650px 50px 50px 50px;
+  background-image: url("../assets/the-harlem-hellfighters.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  /* background-position-x: -50px;
-  background-position-y: -100px; */
   background-size: cover;
-  display: inline-block;
   width: 1200px;
+  height: 800px;
+  margin: 0 auto;
 }
 
 .hero button {
   font-size: 16px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   padding: 15px;
 }
 .hero p {
   font-size: 16px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: rgba(1, 1, 0.5, 0.6);
   color: #fff;
+  margin-bottom: 25px;
 }
 
 .learnMore {
+  height: 50px;
+  width: 100px;
+  background-color: white;
   border-radius: 5px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+}
+.harlem-boat {
+  display: inline-block;
+}
+.motto {
+  margin: 100px 50px 0px 0px;
 }
