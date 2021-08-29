@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #415848;
 }
@@ -5,7 +9,7 @@ body {
 nav a,
 h2 {
   color: #fff;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 nav ul li {
@@ -39,24 +43,40 @@ h2 {
 
 /* inserts element after the container (in this case the nav) */
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
 
 .hero {
-  padding-top: 500px;
-  margin-left: 500px;
-  margin-top: -450px;
+  /* padding-top: 350px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px; */
+
+  padding: 350px 50px 20px 50px;
+  /* margin-left: 500px; */
+  background-image: url('../assets/the-harlem-hellfighters.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-position-x: -50px;
+  background-position-y: -100px; */
+  background-size: cover;
+  display: inline-block;
+  width: 1200px;
 }
 
 .hero button {
   font-size: 16px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   padding: 15px;
 }
 .hero p {
   font-size: 16px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   color: #fff;
+}
+
+.learnMore {
+  border-radius: 5px;
 }
