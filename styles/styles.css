@@ -35,13 +35,13 @@ ul {
   margin-bottom: 50px;
 }
 
-h2 {
+nav h2 {
   float: left;
   font-size: 30px;
   margin-left: 20px;
 }
 
-/* inserts element after the container (in this case the nav) */
+/* inserts element after the container at the very end (in this case the nav) */
 .clearfix::after {
   content: "";
   clear: both;
@@ -80,15 +80,18 @@ h2 {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-p {
+.about-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
-  display: inline-block;
   font-size: 18px;
+  width: 45%;
+  float: right;
+  /* padding-right: 600px; */
 }
 .harlem-boat {
-  display: inline-block;
+  float: left;
+  padding-left: 50px;
 }
 .motto {
-  margin: 100px 50px 0px 0px;
+  margin: 0 auto;
 }
