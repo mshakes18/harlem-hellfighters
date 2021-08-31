@@ -84,14 +84,37 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 45%;
+  width: 73%;
   float: right;
-  /* padding-right: 600px; */
+  padding: 0 auto;
+  height: auto;
 }
 .harlem-boat {
   float: left;
-  padding-left: 50px;
+  padding: 0 auto;
 }
-.motto {
+
+.about-container {
+  margin-top: 50px;
+}
+
+.harlem-boat-two {
+  float: right;
+  padding: 0 auto;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.about-text-two {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 73%;
+  float: right;
+  padding: 0 auto;
+  height: auto;
+}
+
+.motto .about-heading {
   margin: 0 auto;
 }
