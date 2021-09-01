@@ -39,7 +39,16 @@ nav h2 {
   float: left;
   font-size: 30px;
   margin-left: 20px;
+} 
+
+/* PAGE HEADINGS */
+.motto,
+.about-heading,
+.honours-heading {
+  text-align: center;
 }
+
+
 
 /* inserts element after the container at the very end (in this case the nav) */
 .clearfix::after {
@@ -58,11 +67,20 @@ nav h2 {
   height: 800px;
   margin: 0 auto;
 }
-
+/* HERO BUTTON */
 .hero button {
   font-size: 16px;
   font-family: "Noto Sans JP", sans-serif;
   padding: 15px;
+}
+
+/* HERO BUTTON TEXT*/
+.learnMore {
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  border-radius: 5px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .hero p {
   font-size: 16px;
@@ -72,49 +90,63 @@ nav h2 {
   margin-bottom: 25px;
 }
 
-.learnMore {
-  height: 50px;
-  width: 100px;
-  background-color: white;
-  border-radius: 5px;
-  font-family: "Noto Sans JP", sans-serif;
+/* CONTAINERS */
+
+.about-container,
+.honours-container {
+  margin-top: 50px;
 }
 
-.about-text {
+/* TEXT */
+.about-text{
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
   width: 73%;
   float: right;
-  padding: 0 auto;
   height: auto;
 }
-.harlem-boat {
-  float: left;
-  padding: 0 auto;
+
+
+.honours-text{
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 43%;
+  float: right;
+  height: auto;
 }
 
-.about-container {
-  margin-top: 50px;
+.about-text-two,
+.honours-text-two {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 73%;
+  float: left;
+  height: auto;
+}
+
+.honours-text-two {
+  padding-top: 150px;
+}
+
+/* IMAGES */
+.harlem-boat,
+.nyc-monument {
+  float: left;
 }
 
 .harlem-boat-two {
   float: right;
-  padding: 0 auto;
   margin-bottom: 25px;
   margin-right: 25px;
 }
 
-.about-text-two {
-  font-family: "Noto Sans JP", sans-serif;
-  color: white;
-  font-size: 18px;
-  width: 73%;
+.private-henry {
+  padding-top: 35px;
   float: right;
-  padding: 0 auto;
-  height: auto;
+  margin-bottom: 25px;
+  margin-right: 25px;
 }
 
-.motto .about-heading {
-  margin: 0 auto;
-}
