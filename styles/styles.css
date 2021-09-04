@@ -39,7 +39,7 @@ nav h2 {
   float: left;
   font-size: 30px;
   margin-left: 20px;
-} 
+}
 
 /* PAGE HEADINGS */
 .motto,
@@ -47,9 +47,9 @@ nav h2 {
 .honours-heading {
   text-align: center;
 }
-
-
-
+.henry-heading {
+  padding-left: 330px;
+}
 /* inserts element after the container at the very end (in this case the nav) */
 .clearfix::after {
   content: "";
@@ -74,7 +74,7 @@ nav h2 {
   padding: 15px;
 }
 
-/* HERO BUTTON TEXT*/
+/* HERO BUTTON*/
 .learnMore {
   height: 50px;
   width: 100px;
@@ -82,6 +82,7 @@ nav h2 {
   border-radius: 5px;
   font-family: "Noto Sans JP", sans-serif;
 }
+/* HERO BUTTON TEXT */
 .hero p {
   font-size: 16px;
   font-family: "Noto Sans JP", sans-serif;
@@ -97,8 +98,16 @@ nav h2 {
   margin-top: 50px;
 }
 
+.honours-container {
+  padding-left: 100px;
+}
+
+.honours-container-two {
+  padding-right: 100px;
+}
+
 /* TEXT */
-.about-text{
+.about-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
@@ -107,46 +116,59 @@ nav h2 {
   height: auto;
 }
 
-
-.honours-text{
+.memorial-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
   width: 43%;
-  float: right;
+  float: left;
   height: auto;
+  margin-top: 0;
 }
 
-.about-text-two,
-.honours-text-two {
+.about-text-two {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 73%;
+  width: 43%;
   float: left;
   height: auto;
+  margin-top: 0;
 }
 
-.honours-text-two {
-  padding-top: 150px;
+.henry-text {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 49%;
+  float: right;
+  height: auto;
+  margin-top: 0px;
 }
 
 /* IMAGES */
 .harlem-boat,
 .nyc-monument {
   float: left;
+  width: 30%;
+}
+
+.nyc-monument {
+  width: 30%;
+  margin-right: 50px;
 }
 
 .harlem-boat-two {
   float: right;
   margin-bottom: 25px;
   margin-right: 25px;
+  width: 30%;
 }
 
 .private-henry {
-  padding-top: 35px;
   float: right;
   margin-bottom: 25px;
   margin-right: 25px;
+  margin-left: 300px;
+  width: 30%;
 }
-
