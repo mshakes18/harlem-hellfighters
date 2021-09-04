@@ -39,7 +39,7 @@ nav h2 {
   float: left;
   font-size: 30px;
   margin-left: 20px;
-} 
+}
 
 /* PAGE HEADINGS */
 .motto,
@@ -47,8 +47,10 @@ nav h2 {
 .honours-heading {
   text-align: center;
 }
-
-
+.henry-heading {
+  padding-left: 100x;
+  padding-top: 50px;
+}
 
 /* inserts element after the container at the very end (in this case the nav) */
 .clearfix::after {
@@ -74,7 +76,7 @@ nav h2 {
   padding: 15px;
 }
 
-/* HERO BUTTON TEXT*/
+/* HERO BUTTON*/
 .learnMore {
   height: 50px;
   width: 100px;
@@ -82,6 +84,7 @@ nav h2 {
   border-radius: 5px;
   font-family: "Noto Sans JP", sans-serif;
 }
+/* HERO BUTTON TEXT */
 .hero p {
   font-size: 16px;
   font-family: "Noto Sans JP", sans-serif;
@@ -96,57 +99,84 @@ nav h2 {
 .honours-container {
   margin-top: 50px;
 }
+.about-container {
+  padding-bottom: 50px;
+}
+
+.henry-container,
+.honours-container-two,
+.about-container,
+.henry-container,
+.honours-container {
+  padding-right: 100px;
+  padding-left: 100px;
+}
 
 /* TEXT */
-.about-text{
+.about-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 73%;
-  float: right;
-  height: auto;
-}
-
-
-.honours-text{
-  font-family: "Noto Sans JP", sans-serif;
-  color: white;
-  font-size: 18px;
-  width: 43%;
-  float: right;
-  height: auto;
-}
-
-.about-text-two,
-.honours-text-two {
-  font-family: "Noto Sans JP", sans-serif;
-  color: white;
-  font-size: 18px;
-  width: 73%;
+  width: 50%;
   float: left;
   height: auto;
+  margin-top: 0;
 }
 
-.honours-text-two {
-  padding-top: 150px;
+.memorial-text {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 50%;
+  float: left;
+  height: auto;
+  margin-top: 0;
+}
+
+.about-text-two {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 53%;
+  float: right;
+  height: auto;
+  margin-top: 0;
+}
+
+.henry-text {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  font-size: 18px;
+  width: 49%;
+  float: right;
+  height: auto;
+  margin-top: 0px;
 }
 
 /* IMAGES */
 .harlem-boat,
 .nyc-monument {
   float: left;
+  margin-right: 50px;
+}
+
+.nyc-monument {
+  width: 30%;
+  margin-right: 50px;
 }
 
 .harlem-boat-two {
   float: right;
   margin-bottom: 25px;
   margin-right: 25px;
+  margin-left: 325px;
+  width: 30%;
 }
 
 .private-henry {
-  padding-top: 35px;
   float: right;
   margin-bottom: 25px;
   margin-right: 25px;
+  margin-left: 325px;
+  width: 30%;
 }
-
