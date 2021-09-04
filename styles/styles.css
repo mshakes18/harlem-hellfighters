@@ -48,8 +48,10 @@ nav h2 {
   text-align: center;
 }
 .henry-heading {
-  padding-left: 330px;
+  padding-left: 100x;
+  padding-top: 50px;
 }
+
 /* inserts element after the container at the very end (in this case the nav) */
 .clearfix::after {
   content: "";
@@ -97,13 +99,17 @@ nav h2 {
 .honours-container {
   margin-top: 50px;
 }
-
-.honours-container {
-  padding-left: 100px;
+.about-container {
+  padding-bottom: 50px;
 }
 
-.honours-container-two {
+.henry-container,
+.honours-container-two,
+.about-container,
+.henry-container,
+.honours-container {
   padding-right: 100px;
+  padding-left: 100px;
 }
 
 /* TEXT */
@@ -111,16 +117,17 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 73%;
-  float: right;
+  width: 50%;
+  float: left;
   height: auto;
+  margin-top: 0;
 }
 
 .memorial-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 43%;
+  width: 50%;
   float: left;
   height: auto;
   margin-top: 0;
@@ -130,8 +137,8 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 43%;
-  float: left;
+  width: 53%;
+  float: right;
   height: auto;
   margin-top: 0;
 }
@@ -150,7 +157,7 @@ nav h2 {
 .harlem-boat,
 .nyc-monument {
   float: left;
-  width: 30%;
+  margin-right: 50px;
 }
 
 .nyc-monument {
@@ -162,6 +169,7 @@ nav h2 {
   float: right;
   margin-bottom: 25px;
   margin-right: 25px;
+  margin-left: 325px;
   width: 30%;
 }
 
@@ -169,6 +177,6 @@ nav h2 {
   float: right;
   margin-bottom: 25px;
   margin-right: 25px;
-  margin-left: 300px;
+  margin-left: 325px;
   width: 30%;
 }
