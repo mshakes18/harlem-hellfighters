@@ -44,12 +44,9 @@ nav h2 {
 /* PAGE HEADINGS */
 .motto,
 .about-heading,
-.honours-heading {
-  text-align: center;
-}
+.honours-heading,
 .henry-heading {
-  padding-left: 100x;
-  padding-top: 50px;
+  text-align: center;
 }
 
 /* inserts element after the container at the very end (in this case the nav) */
@@ -106,7 +103,6 @@ nav h2 {
 .henry-container,
 .honours-container-two,
 .about-container,
-.henry-container,
 .honours-container {
   padding-right: 100px;
   padding-left: 100px;
@@ -127,7 +123,7 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 50%;
+  width: 53%;
   float: left;
   height: auto;
   margin-top: 0;
@@ -138,17 +134,18 @@ nav h2 {
   color: white;
   font-size: 18px;
   width: 53%;
-  float: right;
+  float: left;
   height: auto;
   margin-top: 0;
+  margin-right: 250px;
 }
 
 .henry-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 49%;
-  float: right;
+  width: 53%;
+  float: left;
   height: auto;
   margin-top: 0px;
 }
@@ -158,25 +155,19 @@ nav h2 {
 .nyc-monument {
   float: left;
   margin-right: 50px;
-}
-
-.nyc-monument {
   width: 30%;
-  margin-right: 50px;
 }
 
-.harlem-boat-two {
-  float: right;
+.harlem-boat-return {
+  float: left;
   margin-bottom: 25px;
   margin-right: 25px;
-  margin-left: 325px;
   width: 30%;
 }
-
+/* PRIVATE HENRY */
 .private-henry {
-  float: right;
-  margin-bottom: 25px;
-  margin-right: 25px;
-  margin-left: 325px;
+  float: left;
+  margin-right: 50px;
+  /* margin-left: 250px; */
   width: 30%;
 }
