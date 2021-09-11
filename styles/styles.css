@@ -98,6 +98,11 @@ nav h2 {
 }
 .about-container {
   padding-bottom: 50px;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-items: flex-start;
+  /* align-items: center; */
 }
 
 .henry-container,
@@ -113,9 +118,9 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 50%;
-  float: left;
-  height: auto;
+  /* width: 50%; */
+  /* float: left; */
+  /* height: auto; */
   margin-top: 0;
 }
 
@@ -135,9 +140,9 @@ nav h2 {
   font-size: 18px;
   width: 53%;
   float: left;
-  height: auto;
+  /* height: auto; */
   margin-top: 0;
-  margin-right: 250px;
+  margin-right: 100px;
 }
 
 .henry-text {
@@ -151,9 +156,13 @@ nav h2 {
 }
 
 /* IMAGES */
-.harlem-boat,
 .nyc-monument {
   float: left;
+  margin-right: 50px;
+  width: 30%;
+}
+
+.harlem-boat {
   margin-right: 50px;
   width: 30%;
 }
