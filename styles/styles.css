@@ -96,7 +96,9 @@ nav h2 {
 .honours-container {
   margin-top: 50px;
 }
-.about-container {
+.about-container,
+.honours-container,
+.henry-container {
   padding-bottom: 50px;
   display: flex;
   /* justify-content: center; */
@@ -128,9 +130,9 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 53%;
-  float: left;
-  height: auto;
+  /* width: 53%;
+  float: left; */
+  /* height: auto; */
   margin-top: 0;
 }
 
@@ -138,26 +140,26 @@ nav h2 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 53%;
-  float: left;
+  /* width: 53%; */
+  /* float: left; */
   /* height: auto; */
-  margin-top: 0;
-  margin-right: 100px;
+  /* margin-top: 0; */
+  /* margin-right: 100px; */
 }
 
 .henry-text {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
   font-size: 18px;
-  width: 53%;
-  float: left;
-  height: auto;
+  /* width: 53%; */
+  /* float: left; */
+  /* height: auto; */
   margin-top: 0px;
 }
 
 /* IMAGES */
 .nyc-monument {
-  float: left;
+  /* float: left; */
   margin-right: 50px;
   width: 30%;
 }
@@ -170,13 +172,13 @@ nav h2 {
 .harlem-boat-return {
   float: left;
   margin-bottom: 25px;
-  margin-right: 25px;
+  margin-left: 50px;
   width: 30%;
 }
 /* PRIVATE HENRY */
 .private-henry {
-  float: left;
-  margin-right: 50px;
+  /* float: left; */
+  margin-left: 50px;
   /* margin-left: 250px; */
   width: 30%;
 }
